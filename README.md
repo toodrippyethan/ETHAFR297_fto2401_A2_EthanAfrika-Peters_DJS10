@@ -1,4 +1,10 @@
-# DJS09 - Asynchrony Challenge
+### Project Brief: DJS09 - Asynchrony
+
+#### Objective
+Dive into the asynchronous world of React by creating an application that fetches and displays blog posts from an API. You'll practice handling API calls with the Fetch API, managing application state, and gracefully handling errors.
+
+#### Project Description
+Your task is to build a React application that makes HTTP GET requests to the JSONPlaceholder API to retrieve a list of dummy blog posts. The application should render the titles and bodies of these posts on the screen. You'll also implement error handling to manage unsuccessful API calls.
 
 - Create a React App that uses the Fetch API to fetch dummy blog posts from this API: https://jsonplaceholder.typicode.com/posts
 - Check if the response from the API is "ok", if not throw an error.
@@ -16,18 +22,6 @@
 ![alt text](<images/error-message.png>)
 
   ***Hint:** Break the API URL (https://jsonplaceholder.typicode.com/posts) by mistyping it to simulate an error state.
-
-
---------------------
-
-### Project Brief: DJS09 - Asynchrony
-
-#### Objective
-Dive into the asynchronous world of React by creating an application that fetches and displays blog posts from an API. You'll practice handling API calls with the Fetch API, managing application state, and gracefully handling errors.
-
-#### Project Description
-Your task is to build a React application that makes HTTP GET requests to the JSONPlaceholder API to retrieve a list of dummy blog posts. The application should render the titles and bodies of these posts on the screen. You'll also implement error handling to manage unsuccessful API calls.
-
 #### Requirements
 
 1. **API Integration**: Use the Fetch API to asynchronously fetch blog posts from `https://jsonplaceholder.typicode.com/posts`. Ensure the API response is checked—if it's not "ok", throw an error.
@@ -37,14 +31,6 @@ Your task is to build a React application that makes HTTP GET requests to the JS
    - If the API call is successful, display each post's title and body in your application.
    - If the API call fails, display a user-friendly error message. Ensure your application does not crash.
 5. **Testing Error States**: Simulate an error state by modifying the API URL to an incorrect address, and observe if the application correctly handles the error by displaying the appropriate message.
-
-#### Development Steps
-
-1. **Setup**: Create a new React application using Create React App.
-2. **Fetch Data**: Implement the Fetch API call within a `useEffect` hook to retrieve the blog posts when the component mounts.
-3. **Error Handling**: Use `.then()`, `.catch()`, and conditional rendering to handle successful and failed API calls.
-4. **Display Posts**: Map through the fetched posts and display their titles and bodies.
-5. **Display Error Message**: If an error is caught, render a message to inform the user that fetching data failed.
 
 #### Additional Guidelines
 
