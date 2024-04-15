@@ -1,4 +1,4 @@
-### Project Brief: DJS09 - Asynchrony
+## Project Brief: DJS10 - Asynchrony
 
 #### Objective
 Dive into the asynchronous world of React by creating an application that fetches and displays blog posts from an API. You'll practice handling API calls with the Fetch API, managing application state, and gracefully handling errors.
