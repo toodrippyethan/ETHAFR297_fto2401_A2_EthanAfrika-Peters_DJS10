@@ -12,7 +12,7 @@ Your task is to build a React application that makes HTTP GET requests to the JS
 
 1. **API Integration**: Use the Fetch API to asynchronously fetch blog posts from `https://jsonplaceholder.typicode.com/posts`. Ensure the API response is checked—if it's not "ok", throw an error.
 2. **State Management**: Store the fetched posts in the application's state. Use React hooks like `useState` and `useEffect` to manage state and side effects.
-3. **Error Handling**: Implement error handling using the `.catch()` method of the Fetch API. If an error occurs, catch it and store the error message in the state instead of logging it to the console.
+3. **Error Handling**: Catch any errors that might occur during the API call. If an error occurs, catch it and store the error message in the state instead of logging it to the console.
 4. **UI Rendering**:
    - If the API call is successful, display each post's title and body in your application.
     ![alt text](<images/blog-posts.png>)
